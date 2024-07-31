@@ -1,1 +1,1 @@
-Building a basic recipe website following the Odin Project tutorial.
+Building a basic recipe book website with my favorite recipes because I was tired of long stories of authors about their life journey on a banana muffins recipe.
