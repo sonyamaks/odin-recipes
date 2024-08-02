@@ -1,0 +1,96 @@
+body {
+  font-family: "Press Start 2P", system-ui, sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  margin-top: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url(pictures/background.webp);
+}
+
+.header {
+  font-family: "Press Start 2P", system-ui, sans-serif;
+  font-style: normal;
+}
+
+.main-content {
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.description {
+  text-align: left;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 5%;
+}
+
+.steps {
+  text-align: left;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ingredients {
+  vertical-align: top;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+footer {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  padding-bottom: 2vw;
+}
+
+ul {
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+ol {
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+th {
+  margin-left: 10%;
+}
+
+img {
+  border-radius: 5%;
+  width: 20rem;
+  height: auto;
+}
+
+.page-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 40px;
+}
+
+h1 {
+  padding-top: 20px;
+}

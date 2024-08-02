@@ -4,14 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <header>
+      <h1>Recipe Book</h1>
+    </header>
 
-    <ul>
-      <li><a href="recipes/muffins.html"> Banana Muffins </a></li>
-      <li><a href="recipes/bubbletea.html"> Brown Sugar Bubble Tea</a></li>
-      <li><a href="recipes/pokebowl.html">Salmon Poke Bowl</a></li>
-    </ul>
+    <div class="main-content">
+      <p class="recipe-item">
+        <img src="icons/muffin.png" alt="muffin" class="icon" /><a
+          href="recipes/muffins.html"
+        >
+          Banana Muffins
+        </a>
+      </p>
+      <p class="recipe-item">
+        <img src="icons/bubble-tea.png" alt="bubble-tea" class="icon" /><a
+          href="recipes/bubbletea.html"
+        >
+          Brown Sugar Bubble Tea</a
+        >
+      </p>
+      <p class="recipe-item">
+        <img src="icons/poke-bowl.png" alt="poke bowl" class="icon" />
+        <a href="recipes/pokebowl.html">Salmon Poke Bowl</a>
+      </p>
+    </div>
+    <footer>
+      Made By: <a href="https://github.com/sonyamaks">Sofiia Maksymenkova</a>
+    </footer>
   </body>
 </html>
