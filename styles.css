@@ -8,15 +8,65 @@ body {
   background-image: url(pictures/background.webp);
 }
 
-.header {
-  font-family: "Press Start 2P", system-ui, sans-serif;
-  font-style: normal;
+header {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
+footer {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  padding-bottom: 2vw;
+}
+
+ul {
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+ol {
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+th {
+  margin-left: 10%;
+}
+
+h1 {
+  padding-top: 2rem;
+  font-size: 2.125rem;
+}
+
+img {
+  border-radius: 5%;
+  width: 20rem;
+  height: auto;
+}
+
+/* Classes */
 .main-content {
   justify-content: center;
   align-items: center;
   text-align: justify;
+  margin: 2rem;
+}
+
+.header {
+  font-family: "Press Start 2P", system-ui, sans-serif;
+  font-style: normal;
 }
 
 .description {
@@ -41,56 +91,16 @@ body {
   font-style: normal;
 }
 
-header {
-  text-align: center;
-  font-weight: 100;
-  width: 100%;
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
-
-footer {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  font-weight: 100;
-  width: 100%;
-  padding-bottom: 2vw;
-}
-
-ul {
-  background-color: rgba(255, 255, 255, 0.726);
-  border-radius: 20px;
-  font-size: 15px;
-}
-
-ol {
-  background-color: rgba(255, 255, 255, 0.726);
-  border-radius: 20px;
-  font-size: 15px;
-}
-
-th {
-  margin-left: 10%;
-}
-
-img {
-  border-radius: 5%;
-  width: 20rem;
-  height: auto;
-}
-
 .page-top {
   display: flex;
   flex-direction: row;
 }
 
 .icon {
-  width: 40px;
+  width: 2.5rem;
+  margin-right: 1rem;
 }
 
-h1 {
-  padding-top: 20px;
+.recipes-list {
+  align-items: center;
 }
