@@ -31,14 +31,18 @@ ul {
   background-color: rgba(255, 255, 255, 0.726);
   border-radius: 1.2rem;
   font-size: 1rem;
-  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 ol {
   background-color: rgba(255, 255, 255, 0.726);
   border-radius: 1.2rem;
   font-size: 1rem;
-  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 th {
@@ -56,6 +60,13 @@ img {
   height: auto;
 }
 
+a {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
 /* Classes */
 .main-content {
   justify-content: center;
@@ -71,7 +82,7 @@ img {
 
 .description {
   text-align: left;
-  font-family: "DotGothic16", sans-serif;
+  font-family: "Courier", sans-serif;
   font-weight: 500;
   font-style: normal;
   margin-left: 5%;
@@ -79,14 +90,14 @@ img {
 
 .steps {
   text-align: left;
-  font-family: "DotGothic16", sans-serif;
+  font-family: "Courier", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 .ingredients {
   vertical-align: top;
-  font-family: "DotGothic16", sans-serif;
+  font-family: "Courier", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
